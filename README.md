@@ -34,6 +34,26 @@ The dataset is the **Adult Census Income** dataset from the UCI Machine Learning
 - Uses a sample individual's profile to predict income probability.
 - Calculates **odds ratios** for model interpretation.
 
+The model achieved an accuracy of 83.54% with an AUC of 0.898, indicating strong classification performance.
+
+The statistically significant socio-economic factors out of the 12 economic factors in the dataset associated with earning above 50K after our EDA are the following:
+
+Age – Older individuals generally have a higher probability of earning above 50K.
+
+Hours per Week – Working more hours per week is positively associated with higher income.
+
+Education – Higher education levels (e.g., Bachelors, Masters, Professional school) significantly increase the likelihood of higher earnings.
+
+Marital Status – Being married (especially "Married-civ-spouse") shows a strong positive correlation with income.
+
+Occupation – Roles in executive, managerial, and professional fields are strongly linked to higher income levels.
+
+Workclass – Certain work classes, particularly private sector and government jobs, have higher odds compared to others.
+
+Sex – Being male is associated with a higher probability of earning above 50K in this dataset.
+
+
+
 ## Installation
 
 Clone the repo  Install the required R packages:

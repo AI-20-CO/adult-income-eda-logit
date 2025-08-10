@@ -44,6 +44,22 @@ cd adult-income-eda-logit
 
 r
 
+install.packages("renv")
+renv::init()
+renv::install(c(
+  "dplyr",
+  "ggplot2",
+  "gridExtra",
+  "corrplot",
+  "pROC",
+  "caret",
+  "e1071",
+  "reshape2"
+))
+
+source("run_all.R")
+
+
 
 
 

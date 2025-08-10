@@ -38,13 +38,15 @@ The dataset is the **Adult Census Income** dataset from the UCI Machine Learning
 
 The statistically significant socio-economic factors out of the 12 economic factors in the dataset associated with earning above 50K after our EDA are the following:
 
-Age – Older individuals generally have a higher probability of earning above 50K.
-Hours per Week – Working more hours per week is positively associated with higher income.
-Education – Higher education levels (e.g., Bachelors, Masters, Professional school) significantly increase the likelihood of higher earnings.
-Marital Status – Being married (especially "Married-civ-spouse") shows a strong positive correlation with income.
-Occupation – Roles in executive, managerial, and professional fields are strongly linked to higher income levels.
-Workclass – Certain work classes, particularly private sector and government jobs, have higher odds compared to others.
-Sex – Being male is associated with a higher probability of earning above 50K in this dataset.
+| Factor             | Relationship with >50K Income                      | Reasoning                                                                                                              |
+| ------------------ | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Age**            | Positive (older → higher income)                   | Older individuals often have more experience, seniority, and career advancement, leading to higher pay.                |
+| **Hours per Week** | Positive (more hours → higher income)              | Working longer hours may indicate full-time or high-demand roles, which often offer better pay.                        |
+| **Education**      | Positive (higher education → higher income)        | Advanced degrees typically lead to specialized, higher-paying jobs.                                                    |
+| **Marital Status** | Positive (married → higher income)                 | Married individuals, particularly in stable partnerships, may have more financial stability and career progression.    |
+| **Occupation**     | Positive (professional/managerial → higher income) | Executive, managerial, and technical roles usually offer higher salaries due to responsibility and skill requirements. |
+| **Workclass**      | Positive (private/government → higher income)      | Certain sectors offer more competitive pay and benefits compared to others.                                            |
+| **Sex**            | Positive (male → higher income)                    | Reflects existing gender pay disparities in the dataset, not necessarily skill or qualification differences.           |
 
 
 

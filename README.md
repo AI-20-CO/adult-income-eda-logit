@@ -42,18 +42,18 @@ The dataset is the **Adult Census Income** dataset from the UCI Machine Learning
 
 ## Installation
 
-Clone the repo & Install the required R packages:
+Clone the repo  Install the required R packages:
 
 ```bash
 git clone https://github.com/<your-username>/adult-income-eda-logit.git
 cd adult-income-eda-logit
 
-```r
-install.packages("renv")
-renv::init()
-renv::install(c("dplyr","ggplot2","gridExtra","corrplot","pROC","caret","e1071","reshape2"))
+r
 
-source("run_all.R")
+
+
+
+
 
 
 

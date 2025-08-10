@@ -2,12 +2,8 @@
 
 This project performs **Exploratory Data Analysis (EDA)**, **data cleaning**, **statistical hypothesis testing**, and **logistic regression modeling** on the Adult Income dataset to identify demographic and socioeconomic predictors of earning more than $50K annually.
 
----
-
 ## Dataset
 The dataset is the **Adult Census Income** dataset from the UCI Machine Learning Repository. It contains demographic and income-related attributes for individuals.
-
----
 
 ## Script Features
 
@@ -37,8 +33,6 @@ The dataset is the **Adult Census Income** dataset from the UCI Machine Learning
 ### 5. **Prediction Example**
 - Uses a sample individual's profile to predict income probability.
 - Calculates **odds ratios** for model interpretation.
-
----
 
 ## Installation
 

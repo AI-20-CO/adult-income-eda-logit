@@ -3,7 +3,7 @@
 This project performs **Exploratory Data Analysis (EDA)**, **data cleaning**, **statistical hypothesis testing**, and **logistic regression modeling** on the Adult Income dataset to identify demographic and socioeconomic predictors of earning more than $50K annually.
 
 ## Dataset
-The dataset is the **Adult Census Income** dataset from the UCI Machine Learning Repository. It contains demographic and income-related attributes for individuals.
+The dataset is the [**Adult Census Income**](https://www.kaggle.com/datasets/uciml/adult-census-income) dataset from the UCI Machine Learning Repository. It contains demographic and income-related attributes for individuals.
 
 ## Script Features
 
@@ -52,17 +52,16 @@ The statistically significant socio-economic factors out of the 12 economic fact
 
 ## Installation
 
-Clone the repo  Install the required R packages:
+1. Download the dataset from kaggle - [**Adult Census Income**](https://www.kaggle.com/datasets/uciml/adult-census-income)
+3. Clone the repo & install the required R packages 
 
 ```bash
 git clone https://github.com/<your-username>/adult-income-eda-logit.git
 cd adult-income-eda-logit
+```
 
-r
-
-install.packages("renv")
-renv::init()
-renv::install(c(
+```r terminal
+install(c(
   "dplyr",
   "ggplot2",
   "gridExtra",
@@ -72,5 +71,6 @@ renv::install(c(
   "e1071",
   "reshape2"
 ))
+```
 
-source("run_all.R")
+3. Make sure the dataset file is placed in the same directory as the adult-income-eda-logit project folder.
